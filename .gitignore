@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+data/archives/
+data/source/
+data/study_dataset/*/good/
+data/study_dataset/*/bad/
+output/
