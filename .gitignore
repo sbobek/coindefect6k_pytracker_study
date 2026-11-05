@@ -5,3 +5,4 @@ data/source/
 data/study_dataset/*/good/
 data/study_dataset/*/bad/
 output/
+configs/config.yaml
