@@ -1,13 +1,13 @@
 dataset:
   image:
     bbox_model: superpixel
-    path: C:/Users/szymo/Software/coindefect6k_pytracker_study/data/study_dataset/manufacturing
+    path: ./data/study_dataset/manufacturing
 display:
   monitor:
     name: study_monitor
     resolution:
-      - 3440
-      - 1440
+      - 1920
+      - 1080
     width: 53
     distance: 60
     display_number: 0
@@ -15,7 +15,7 @@ display:
     button:
       size:
         - 250
-        - 250
+        - 100
       margin: 20
       color: lightgrey
       text:
@@ -25,14 +25,16 @@ display:
       size: 10
       color: white
     aoe:
-      - 1000
+      - 800
       - 800
 output:
-  folder: C:/Users/szymo/Software/coindefect6k_pytracker_study/output/manufacturing
+  folder: ./output
 instructions:
   intro:
     - "Welcome to the CoinDefect6k study."
     - "Inspect each coin image and classify it as good or bad."
+    - "Express all your thought out loud -- your comments will be transcribed and aligned with gaze"
+    - "If you are using mouse, remember to press and hold right mouse button to simulate gaze"
     - "Press SPACE to begin."
   outro:
     - "Thank you."
