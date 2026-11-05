@@ -1,13 +1,13 @@
 dataset:
   image:
     bbox_model: superpixel
-    path: ./data/study_dataset/manufacturing
+    path: C:/Users/szymo/Software/coindefect6k_pytracker_study/data/study_dataset/circulation
 display:
   monitor:
     name: study_monitor
     resolution:
-      - 1920
-      - 1080
+      - 3440
+      - 1440
     width: 53
     distance: 60
     display_number: 0
@@ -28,7 +28,7 @@ display:
       - 800
       - 800
 output:
-  folder: ./output
+  folder: C:/Users/szymo/Software/coindefect6k_pytracker_study/output/circulation
 instructions:
   intro:
     - "Welcome to the CoinDefect6k study."
