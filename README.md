@@ -2,6 +2,8 @@
 
 This package has one entry point, `run_study.py`. It downloads and extracts one CoinDefect6k variant when needed, selects a reproducible batch of previously unprocessed samples, writes a Tobii-PyTracker image-dataset directory, patches the study configuration, and optionally launches the experiment.
 
+The experiments are designed for [Coindefect6k](https://zenodo.org/records/18773634) dataset.
+
 ## What is included
 
 - `run_study.py`: downloader, safe ZIP extractor, indexer, sampler, output scanner, dataset builder, configuration updater, and launcher.
